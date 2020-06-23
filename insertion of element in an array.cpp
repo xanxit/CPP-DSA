@@ -8,7 +8,7 @@ int n,i,insert,pos;
   int a[n];//creating an array of the given size
   for(i=0;i<n;i++)
   {
-    cout<<"Enter the Element in "<<i<<" index : ";
+    cout<<"Enter the Element at "<<i+1<<" position : ";
     cin>>a[i];
     cout<<endl;
   }
