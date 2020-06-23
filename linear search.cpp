@@ -9,7 +9,7 @@ int main()
     for(i =0;i<5;i++)
     {
         if(k==a[i])
-        cout<<endl<<"The position of the element in the array is "<<i<<endl;
+        cout<<endl<<"The position of the element in the array is "<<i+1<<endl;
     }
     return 0;
 }
