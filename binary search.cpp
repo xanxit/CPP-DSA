@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int count, i, num, first, last, middle;
-	cout<<"how many elements would you like to enter?:"; 
+	cout<<"How many elements would you like to enter?:"; 
         cin>>count;
 	int arr[count];
 	for (i=0; i<count; i++)
@@ -26,7 +26,7 @@ int main()
 	   }
 	   else if(arr[middle] == num)
 	   {
-		cout<<num<<" found in the array at the location "<<middle+1<<"\n"; 
+		cout<<num<<" is found in the array at the location "<<middle+1<<"\n"; 
                 break; 
            } 
            else { 
