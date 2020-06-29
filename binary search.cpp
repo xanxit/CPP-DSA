@@ -32,7 +32,7 @@ int main()
            else { 
                 last = middle - 1; 
            } 
-           middle = (first + last)/2; 
+           middle = (first + last)/2; //here we are changing the value of mid
         } 
         if(first > last)
 	{
