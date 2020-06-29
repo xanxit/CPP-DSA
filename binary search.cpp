@@ -21,7 +21,7 @@ int main()
 	{
 	   if(arr[middle] < num)
 	   {
-		first = middle + 1;
+		first = middle + 1;//here we are left with just half of the arrat
 
 	   }
 	   else if(arr[middle] == num)
