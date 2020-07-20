@@ -17,7 +17,7 @@ void printList(Node* n)
     } 
 } 
   
-// Driver code 
+
 int main() 
 { 
     Node* head = NULL; 
