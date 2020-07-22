@@ -6,10 +6,6 @@ public:
     int data; 
     Node* next; 
 }; 
-  
-
-  
-  
 
 int main() 
 { 
@@ -31,7 +27,6 @@ int main()
     third->data = 3; // assign data to third node 
     third->next = NULL; 
   
-    printList(head); 
   
     return 0; 
 } 
