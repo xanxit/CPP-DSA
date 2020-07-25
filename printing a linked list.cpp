@@ -26,9 +26,9 @@ int main()
   
     third->data = 3; // assign data to third node 
     third->next = NULL; 
-      while (n != NULL) { 
-        cout << n->data << " "; 
-        n = n->next; 
+      while (head != NULL) { 
+        cout << head->data << " "; 
+        head = head->next; 
       } 
   
     return 0; 
