@@ -35,9 +35,10 @@ void display(Node*p)
   while(p!=NULL)
   {
     if(p->data>m)
-      
+      m=p->data;
     p=p->next;
   }
+ cout<<"MAX= "<<m;
 }
 int main()
 {
