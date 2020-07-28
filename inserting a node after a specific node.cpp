@@ -7,7 +7,6 @@ class Node
   Node*next;
 };
 Node*first=NULL;
-int count=0;
 void insert(Node*p,int pos,int val)
 { int i=0;
   Node*t=NULL;
@@ -51,10 +50,6 @@ void afinsert(Node*p,int z,int pos)
   newnode=new Node;
 
   int i=1;
-  if(count<pos)
-  {
-    cout<<"Invalid position.";
-  }
   else{
   while(i<pos)
   {
