@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int count, i, num, first, last, middle;
-	cout<<"How many elements would you like to enter?:"; 
+	cout<<"How many elements would you like to enter?\n"; 
         cin>>count;
 	int arr[count];
 	for (i=0; i<count; i++)
@@ -21,7 +21,7 @@ int main()
 	{
 	   if(arr[middle] < num)
 	   {
-		first = middle + 1;//here we are left with just half of the arrat
+		first = middle + 1;//here we are left with just half of the array
 
 	   }
 	   else if(arr[middle] == num)
