@@ -50,7 +50,7 @@ void afinsert(Node*p,int z,int pos)
   newnode=new Node;
 
   int i=1;
-  else{
+  
   while(i<pos)
   {
     temp=temp->next;
