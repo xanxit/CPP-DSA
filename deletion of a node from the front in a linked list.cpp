@@ -31,3 +31,11 @@ if(p!=NULL)
 }
 }
 }
+void display(Node*p)
+{
+while(p!=NULL)
+{
+  cout<<p->data<<" ";
+  p=p->next;
+}
+}
