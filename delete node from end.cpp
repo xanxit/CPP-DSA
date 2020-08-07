@@ -68,7 +68,7 @@ int main()
   break;
   }
   }
-  deletefromlast(3);
+  deletefromlast(3);//you can even enter the position which you want to delete
   display(first);
 }
 
