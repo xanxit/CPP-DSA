@@ -25,7 +25,7 @@ void add(node**p,int k)
     temp=temp->next;
   temp->next=t;
 }
-void deletefromlast(int pos)
+void deletefrompos(int pos)
 {
   node*temp=first;
   node*prev;
@@ -68,7 +68,7 @@ int main()
   break;
   }
   }
-  deletefromlast(3);//you can even enter the position which you want to delete
+  deletefrompos(3);//you can even enter the position which you want to delete
   display(first);
 }
 
