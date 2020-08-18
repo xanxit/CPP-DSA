@@ -54,7 +54,7 @@ void insert(node*p,int pos,int val)
 int search(node*p,int z)
 { int i=0;
   while(p!=NULL)
-  { i++;
+  { 
     if(z==p->data)
     {cout<<"\nPresent at node "<<i;
     return i;
