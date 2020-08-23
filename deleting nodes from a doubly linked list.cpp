@@ -39,7 +39,7 @@ void delfromlast()
   tail->next=NULL;
   free(temp);
 }
-/*void delfrompos(int n)
+void delfrompos(int n)
 {
   node*temp=head;
   node*q;
@@ -55,7 +55,7 @@ void delfromlast()
   free(q);
 
 
-}*/
+}
 void display()
 {
   while(head!=NULL)
@@ -85,7 +85,7 @@ int main()
   }
   }
   delfrombeg();
-  //delfrompos(3);
+  delfrompos(3);
   delfromlast();
   display();
 
