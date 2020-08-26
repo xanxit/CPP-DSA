@@ -25,6 +25,26 @@ void othernodes(int n)
   tail=t;
 
 }
+void reverse()
+{
+  node*prev=NULL;
+  node*curr,*nextn;
+  curr=head;
+  while(curr!=NULL)
+  {
+    nextn=curr->next;
+    curr->next=curr->prev;
+    curr->prev=nextn;
+    curr=nextn;
+    prev=curr;
+    curr=nextn;
+  }
+  curr=head;
+  head=tail;
+  tail=curr;
+  
+}
+
 void display()
 {
   while(head!=NULL)
@@ -54,4 +74,5 @@ int main()
   }
   }
   reverse();
+  display();
 }
