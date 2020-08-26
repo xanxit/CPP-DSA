@@ -53,3 +53,5 @@ int main()
   break;
   }
   }
+  reverse();
+}
