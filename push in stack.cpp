@@ -28,10 +28,7 @@ void push(stack *st,int val)
 }
 void printstack(stack st)
 {
-  for(int i=0;i<st.size;i++)
-  {
-    cout<<st.s[i]<<endl;
-  }
+ 
 }
 int main()
 { char n[3];
