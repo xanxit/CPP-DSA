@@ -11,7 +11,7 @@ int main() {
     str[j]=len;
 
   }
-  for(int i=0;str[i]!=0;i++)
+  for(int i=0;str[i]!=0;i++) //using for loop
   cout<<str[i];
   return 0;
  
