@@ -1,14 +1,10 @@
-#include <iostream>
-#include<string>
+#include <bits/stdc++.h>
 using namespace std;
-int main() {
-  char str[]="Sanchit";
-  int len=0;
-  for(int i=0;str[i]!=0;i++)
-  {
-    len++;
-  }
-  cout<<len;
-  return 0;
- 
+
+int main()
+{
+    string s;
+    cin >> s;
+    cout << "The length of string is " << s.length();
+    return 0;
 }
